@@ -1,0 +1,703 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// TVH Brand
+@import "tvh-brand";
+@import "tvh-fonts";
+@import "bootstrap-conf";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+//Post Boostrap
+@import "tvh-base";
+
+/* Background colours */
+.rose{
+    background-color: $tvh-rose;
+}
+.lightrose{
+    background-color: $tvh-rose-tint;
+}
+.sky{
+   background-color: $tvh-sky; 
+}
+.sky-light{
+   background-color: $tvh-sky-tint; 
+}
+.lime{
+   background-color: $tvh-lime; 
+}
+.violet{
+    background-color: $tvh-violet;
+}
+.lightviolet{
+    background-color: $tvh-violet-tint;
+}
+.lightlime{
+    background-color: $tvh-lime-tint;
+}
+.emerald{
+    background-color: $tvh-emerald;
+}
+.carrot{
+    background-color: $tvh-carrot;
+}
+.carrot-light{
+    background-color: $tvh-carrot-tint;
+}
+.grey{
+    background-color: $tvh-grey;
+}
+.lightgrey{
+    background-color: $tvh-grey-tint;
+}
+.black{
+    background-color: $tvh-black;
+}
+.error-red{
+    background-color: $error-red;
+}
+
+
+/* padding */
+.padding{
+    padding-right:10px;
+    padding-left:10px;
+}
+/* blocks */
+.colour-block{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    
+}
+.clear{
+    clear: both;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6{
+    font-family: $ConduitITCPro;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.centrealignment{
+   text-align: center; 
+}
+
+header{
+    background-color: $tvh-white;
+    height: 110px;
+}
+
+
+/* Navigation */
+nav{
+    background-color: $tvh-rose;
+    width: 100%;
+    height: 47px;
+    
+}
+    
+    li{
+        text-transform: uppercase;
+        display: inline-block;
+        font-family: $ConduitITCPro;        
+        color: $tvh-white;
+        padding: 5px;
+        height: 100%;
+
+
+    }
+
+    li:hover{
+        cursor: pointer;
+        color: $tvh-rose;
+        background-color: $tvh-white;
+
+
+}
+.mobile_menu{
+    color: $tvh-white;
+    
+    li{
+       padding: 10px;
+       color: $tvh-white;
+
+    }
+    
+    li:hover{
+       transition: all 0.5s ease;
+        cursor: pointer;
+        color: $tvh-rose;
+        height: 100%;
+
+    }
+}
+
+
+/* Fixed Header */
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+
+/* Footer Styling */
+footer{
+    background-color: $tvh-lime-tint;
+    border-top: solid 1px $tvh-lime;
+    height: 200px;
+    width: 100%;
+    
+    ul{
+        padding: 0;
+        
+        li{
+          list-style: none;
+          font-weight: normal;
+          line-height: 2.2rem;
+          padding: 2px;
+        } 
+    }
+}
+
+
+/* Logo */
+.full_menu_logo_display{
+     width: 30px;
+     height: 30px;
+     display: block;
+    position: relative;
+    top: 10px;
+
+}
+
+
+.full_menu_logo_none{
+    display: none;
+}
+
+.logo_style{ 
+    box-sizing: border-box;
+    color: #63686d;
+    cursor: pointer;
+    display: block;
+    font-family: 'ConduitITCPro';
+    font-size: 27px;
+    font-weight: bold;
+    height: 23px;
+    line-height: 24px;
+    text-transform: uppercase;
+    width: 134.656px;
+    letter-spacing: 0px;
+}
+
+#logo_box{
+    text-align: left;
+    position: relative;
+    left: 70px;
+    top: -50px;
+    width: 100px;
+}
+.logo_img{
+    width: 50px;
+    height: 50px;
+}
+.logo_img{
+    position: relative; 
+}
+
+#mobile-logo{
+    display: none;
+}
+
+.logo{
+    right: 79px;
+    position: relative;
+    top: 70px;
+    width: 73px;
+    height: 70px;
+}
+
+
+/*  Container styling */
+.main-container-style{
+    background-color: $tvh-white;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.container-box{
+    width: 1065px;
+    height: 150px;
+    margin: 0 auto;
+    border: solid red;
+}
+.main-section{
+    background-color: $tvh-white;
+}
+
+/* Form elements &  styling */
+
+
+header form{
+    width: 263px;
+    position: absolute;
+    top: 48px;
+    right: 7px;
+    
+   .header-search-bar{
+          width: 230px;
+          height: 30px;
+          font-size: 1.0em;
+          float: left;
+          color: $tvh-violet;
+          border: solid 1px $tvh-grey-tint;
+    }
+    
+    button{
+        width: 33px;
+        height: 30px;
+        background-color: $tvh-rose;
+        color: $tvh-white;
+        border: none;
+        font-size: 1.0em;
+        text-align: center; 
+    }
+    
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    
+}
+
+label{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-family: $ConduitITCPro;
+}
+
+label.radio {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 2% 0%;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.radio label:before {
+    border-radius: 8px;
+}
+
+label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color:$tvh-rose;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color:$tvh-white;
+    font-size: 1.20em;
+    text-align: center;
+    line-height: 18px;
+}
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 1.50em;
+    color: $tvh-white;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+/* Search Bar Styling */
+
+/* Normal Search Bar */
+.search-bar{
+    
+    input{
+        width: 230px;
+        font-size: 1.0em;
+        height: 30px;
+        color: $tvh-rose;
+        border: solid 1px $tvh-grey-tint;
+
+    }
+    
+    button{
+        @extend .flaticon-zoom3;
+        width: 30px;
+        height: 30px;
+        background-color: $tvh-rose;
+        color: $tvh-white;
+        border: none;
+        text-align: center;
+        position: relative;
+        left: -5px;
+    }
+ 
+}
+
+/* Images */
+.full_image{
+    width: 100%;
+}
+
+/* Select Menus */
+
+select{
+    min-width: 20%;
+    height: 30px;
+    font-family: $ConduitITCPro;
+    @extend .padding;
+    width: 264px;
+}
+
+/* Links */
+
+/* Link & Text Colours */
+.emerald-links{
+    color: $tvh-emerald;
+}
+.violet-links{
+    color: $tvh-violet;
+}
+.sky-links{
+    color: $tvh-sky;
+}
+
+.carrot-links{
+    color: $tvh-carrot;
+}
+
+a{
+    font-family: $ConduitITCPro;
+    color: $tvh-sky;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:link{
+    text-decoration: none;
+
+}
+a:visited{
+    text-decoration: none;
+ 
+}
+a:hover{
+    color: black;
+    font-weight: 700;
+    text-shadow: none;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Buttons */
+.button-style-blue{
+    padding: 5px 10px 5px 10px;
+    color: $tvh-white;
+    border-radius: 2px;
+    font-family: $ConduitITCPro;
+    background-color: $tvh-sky;
+    border: none;
+    margin: 10px;
+}
+.button-style-blue:hover{
+    background-color: $tvh-sky-tint;
+    color: $tvh-black;
+
+}
+.button-style-green{
+    @extend .button-style-blue;
+    background-color: $tvh-lime;
+}
+.button-style-green:hover{
+    background-color: $tvh-lime-tint;
+
+}
+.button-style-rose{
+    @extend .button-style-blue;  
+    background-color: $tvh-rose;
+    
+}
+.button-style-rose:hover{
+    background-color: $tvh-rose-tint;
+    color: $tvh-black;
+    
+}
+.button-style-emerald{
+    @extend .button-style-blue;
+    background-color: $tvh-emerald;
+ 
+}
+
+.button-style-emerald:hover{
+    color: $tvh-black;
+    background-color: $tvh-emerald-tint;
+}
+
+
+
+/* Article Style */
+article{
+    margin: 10px;
+    @extend .padding;
+    padding-bottom: 10px;
+
+    p{
+        @extend .padding;
+
+    }
+        
+    h1{
+        @extend .padding;
+        font-size: 2.0em;
+
+    }
+}
+
+.sub-page{
+    width: 100%;
+    background-color: $tvh-white;
+    border-radius: 2px;
+    @extend .padding;
+        
+    h1{
+        @extend .padding;
+        font-size: 1.70em;
+
+    }
+    a{
+        @extend .padding;
+
+    }
+    
+}
+/* Branded Boxes */
+.purple-brand-box{
+    width: 100%;
+   
+    
+    h3{
+        background-color: $tvh-violet;
+        color: $tvh-white;
+        display: block;
+        padding: 6px;
+        
+    }
+}
+
+
+.carrot-brand-box{
+    @extend .purple-brand-box;
+    
+    h3{
+        background-color: $tvh-carrot;
+    }
+
+} 
+
+
+.brand-box-blue{
+    width: 100%;
+    background-color: $tvh-sky;
+    color: $tvh-white;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    
+    h4{
+        border-bottom:solid;
+        display: block;
+        text-transform: uppercase;
+        padding: 9px;
+    }
+}
+
+
+
+.brand-box-green{
+    @extend .brand-box-blue;
+    background-color: $tvh-emerald;
+  
+}
+
+/* Columns and rows */
+.two-column-container{
+    width: 100%;
+}
+
+.small-column{
+    margin-top: 15px;
+    width: 50%;
+}
+
+.col-xs-12{
+    padding-bottom: 10px;
+}
+
+.row{
+    position: relative;
+}
+
+.float_right{
+    float: right;
+    position: relative;
+    top: -30px;
+}   
+
+
+/* Mobile */
+ @media only screen
+     and (min-width : 0px)and (max-width : 939px) {
+    
+    #mobile_menu_cont{
+        width: 100%;
+    }   
+ 
+    /* Header */
+    nav{
+        height:60px;
+        background-color: $tvh-rose;
+     
+    }
+    /* Logo */
+    #mobile-logo{
+        display: block;
+        position: relative;
+        top: -54px;
+        padding-left: 77px;
+    }
+         
+   .logo_style{ 
+        display: none;
+    }
+     
+    #white_logo{
+        display: block !important;
+        width: 30px;
+        height: 30px;
+              
+    }
+         
+    .full_menu_logo_display{
+     width: 30px;
+     height: 30px;
+     display: block;
+     position: relative;
+    }
+     
+    .logo{
+        display: none;
+    }
+    #logo_box{
+        display: none;
+         }
+         
+    header{
+        display: none;
+    }
+         
+    /* Mobile Menu */         
+    .menu-icon{
+        width: 60px;
+        color: $tvh-white;
+        padding: 10px;
+        display: block;
+        height: 60px;
+        position: absolute;
+        right: 0px;
+        text-align: center;
+    }
+         
+    .menu-icon:hover{            
+        background-color: $tvh-white;
+        color:  $tvh-rose;
+
+    }
+         
+    .col-xs-6 {
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+         
+    .mobile_menu{
+        background-color: #FFF;
+        border-bottom: solid #EA4E5A;
+        width: 100%;
+        position: absolute;
+        top: 59px;
+        z-index: 9;
+        left: 0px;
+        right: 0px;
+        padding-top: 30px;
+           
+        li{
+            width: 100%;
+            text-align: center;
+            color: $tvh-black;
+            }
+         }
+        
+
+}
+        
+
+/* Tablet */
+@media only screen and (min-width:939px) and (max-width:1025px){
+    
+ 
+
+
+}
+
+
