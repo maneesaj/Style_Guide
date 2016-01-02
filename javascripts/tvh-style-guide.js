@@ -10,19 +10,12 @@ if (scrollTop > stickyNavTop) {
     $('.mobile_menu').addClass('float_right');
     $("#white_logo").css("display", "block");
     $('#white_logo').addClass('full_menu_logo_display');
-
-
-
-
 } else {
     $('nav').removeClass('sticky');
     $('.mobile_menu').removeClass('float_right');
     $('#white_logo').addClass('full_menu_logo_none');
     $('#white_logo').removeClass('full_menu_logo_display');
     $("#white_logo").css("display", "none");
-
-
-    
 
 }
 };

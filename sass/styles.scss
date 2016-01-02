@@ -98,6 +98,9 @@ header{
     height: 110px;
 }
 
+.row .header_height{
+    height: 112px;   
+}
 
 /* Navigation */
 nav{
@@ -642,10 +645,10 @@ article{
     #logo_box{
         display: none;
          }
-         
     header{
         display: none;
     }
+        
          
     /* Mobile Menu */         
     .menu-icon{
