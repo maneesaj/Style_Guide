@@ -624,14 +624,16 @@ article{
         display: block !important;
         width: 30px;
         height: 30px;
+        position: relative;
+        top: 18px;
               
     }
          
     .full_menu_logo_display{
-     width: 30px;
-     height: 30px;
-     display: block;
-     position: relative;
+         width: 30px;
+         height: 30px;
+         display: block;
+         position: relative;
     }
      
     .logo{

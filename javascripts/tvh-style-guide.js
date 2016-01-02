@@ -7,7 +7,7 @@ var scrollTop = $(window).scrollTop();
       
 if (scrollTop > stickyNavTop) { 
     $('nav').addClass('sticky');
-    $('#mobile_menu_cont li').addClass('float_right');
+    $('.mobile_menu').addClass('float_right');
     $("#white_logo").css("display", "block");
     $('#white_logo').addClass('full_menu_logo_display');
 
@@ -16,7 +16,7 @@ if (scrollTop > stickyNavTop) {
 
 } else {
     $('nav').removeClass('sticky');
-    $('#mobile_menu_cont li').removeClass('float_right');
+    $('.mobile_menu').removeClass('float_right');
     $('#white_logo').addClass('full_menu_logo_none');
     $('#white_logo').removeClass('full_menu_logo_display');
     $("#white_logo").css("display", "none");

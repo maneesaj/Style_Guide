@@ -9524,9 +9524,11 @@ article h1 {
     display: block !important;
     width: 30px;
     height: 30px;
+    position: relative;
+    top: 18px;
   }
 
-  /* line 630, ../sass/styles.scss */
+  /* line 632, ../sass/styles.scss */
   .full_menu_logo_display {
     width: 30px;
     height: 30px;
@@ -9534,23 +9536,23 @@ article h1 {
     position: relative;
   }
 
-  /* line 637, ../sass/styles.scss */
+  /* line 639, ../sass/styles.scss */
   .logo {
     display: none;
   }
 
-  /* line 640, ../sass/styles.scss */
+  /* line 642, ../sass/styles.scss */
   #logo_box {
     display: none;
   }
 
-  /* line 644, ../sass/styles.scss */
+  /* line 646, ../sass/styles.scss */
   header {
     display: none;
   }
 
   /* Mobile Menu */
-  /* line 649, ../sass/styles.scss */
+  /* line 651, ../sass/styles.scss */
   .menu-icon {
     width: 60px;
     color: #FFF;
@@ -9562,23 +9564,23 @@ article h1 {
     text-align: center;
   }
 
-  /* line 660, ../sass/styles.scss */
+  /* line 662, ../sass/styles.scss */
   .menu-icon:hover {
     background-color: #FFF;
     color: #EA4E5A;
   }
 
-  /* line 666, ../sass/styles.scss */
+  /* line 668, ../sass/styles.scss */
   .col-xs-6 {
     width: 100%;
   }
 
-  /* line 669, ../sass/styles.scss */
+  /* line 671, ../sass/styles.scss */
   .container {
     width: 100%;
   }
 
-  /* line 673, ../sass/styles.scss */
+  /* line 675, ../sass/styles.scss */
   .mobile_menu {
     background-color: #FFF;
     border-bottom: solid #EA4E5A;
@@ -9590,7 +9592,7 @@ article h1 {
     right: 0px;
     padding-top: 30px;
   }
-  /* line 684, ../sass/styles.scss */
+  /* line 686, ../sass/styles.scss */
   .mobile_menu li {
     width: 100%;
     text-align: center;
